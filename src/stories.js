@@ -15,32 +15,32 @@ export default function Stories(){
             user = "9gag"
          />
          <StoriesItem 
-            image = "assets/9gag.svg"
-            user = "9gag"
+            image = "./instagram/assets/img/meowed.svg"
+            user = "meowed"
          />
          <StoriesItem 
-            image = "assets/9gag.svg"
-            user = "9gag"
+            image = "./instagram/assets/img/barked.svg"
+            user = "barked"
          />
          <StoriesItem 
-            image = "assets/9gag.svg"
-            user = "9gag"
+            image = "./instagram/nathanwpylestrangeplanet.svg"
+            user = "nathanwpylestrangeplanet"
          />
          <StoriesItem 
-            image = "assets/9gag.svg"
-            user = "9gag"
+            image = "./instagram/assets/img/wawawicomics.svg"
+            user = "wawawicomics"
          />
          <StoriesItem 
-            image = "assets/9gag.svg"
-            user = "9gag"
+            image = "./instagram/assets/img/respondeai.svg"
+            user = "respondeai"
          />
          <StoriesItem 
-            image = "assets/9gag.svg"
-            user = "9gag"
+            image = "./instagram/assets/img/filomoderna.svg"
+            user = "filomoderna"
          />
          <StoriesItem 
-            image = "assets/9gag.svg"
-            user = "9gag"
+            image = "./instagram/assets/img/memeriagourmet.svg"
+            user = "memeriagourmet"
          />
          <div class="setinha">
             <ion-icon name="chevron-forward-circle"></ion-icon>

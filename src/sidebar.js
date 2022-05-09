@@ -1,13 +1,17 @@
+import Links from "./links";
+
 function Sugestão(props){
     return (
         <div class = "sugestao">
             <div class = "usuario">
                 <img src = {props.image} />
-                <div class = "nome">
-                    {props.user}
-                </div>
-                <div class = "razao">
-                    {props.razao}
+                <div class = "texto">
+                    <div class = "nome">
+                        {props.user}
+                    </div>
+                    <div class = "razao">
+                        {props.razao}
+                    </div>
                 </div>
             </div>
             <div class = "seguir">
@@ -17,16 +21,28 @@ function Sugestão(props){
     );
 }
 
+function Usuario(props){
+    return (
+        <div class = "usuario">
+            <img src = {props.image} />
+            <div class = "texto">
+                <strong>{props.user}</strong>
+                {props.name}
+            </div>
+        </div>
+    );
+}
+
 export default function SideBar(){
     return (
         <div class = "sidebar">
-            <div class="usuario">
-                <img src="./instagram/assets/img/catanacomics.svg" />
-                <div class="texto">
-                    <strong>catanacomics</strong>
-                    Catana
-                </div>
-            </div>
+            
+            <Usuario 
+            image = "./instagram/assets/img/catanacomics.svg"
+            user = "catanacomics"
+            name = "Catana"
+            />
+
             <div class="sugestoes">
                 <div class="titulo">
                     Sugestões para você
@@ -63,6 +79,7 @@ export default function SideBar(){
                 razao = "Segue você"
                 />
             </div>
+            <Links />
         </div>
     );
 }

@@ -47,7 +47,7 @@ export default function Post(){
                 </div>
 
                 <div class="curtidas">
-                  <img src="assets/img/respondeai.svg" />
+                  <img src="./instagram/assets/img/respondeai.svg" />
                   <div class="texto">
                     Curtido por <strong>respondeai</strong> e <strong>outras 101.523 pessoas</strong>
                   </div>
@@ -58,7 +58,7 @@ export default function Post(){
               <div class="post">
               <div class="topo">
                 <Usuario 
-                  image ="assets/img/barked.svg"
+                  image ="./instagram/assets/img/barked.svg"
                   user ="barked"
                   />
 
@@ -68,7 +68,7 @@ export default function Post(){
                 </div>
 
               <Conteudo
-                image ="assets/img/dog.svg"
+                image ="./instagram/assets/img/dog.svg"
               />
 
               <div class="fundo">
@@ -84,7 +84,7 @@ export default function Post(){
                 </div>
 
                 <div class="curtidas">
-                  <img src="assets/img/adorable_animals.svg" />
+                  <img src="./instagram/assets/img/adorable_animals.svg" />
                   <div class="texto">
                     Curtido por <strong>adorable_animals</strong> e <strong>outras 99.159 pessoas</strong>
                   </div>
